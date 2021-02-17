@@ -1,0 +1,142 @@
+:root {
+    --mainBG: white;
+    --mainTXT: black;
+    --mainAccent: #121212;
+}
+body {
+    background-color: var(--mainBG);
+}
+a {
+    text-decoration: none;
+}
+#hero {
+    background-color: var(--mainBG);
+}
+.heroPicWrapper {
+    position: relative;
+    max-width: 400px;
+}
+.heroBookText {
+    color: var(--mainBG);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+}
+.popularBookTitle {
+    font-size: 90px;
+    color: var(--mainAccent);
+    max-width: 528px;
+}
+.popularBookDesc {
+    font-size: 24px;
+    color: var(--mainTXT);
+    margin: 50px 0;
+    max-width: 528px;
+}
+.popularBookWrapper {
+    margin-top: 100px;
+}
+.featuredPatch {
+    margin-top: 100px;
+}
+.popularCTA {
+    width: 17vw;
+}
+.sectionTitle {
+    font-size: 100px;
+    margin: 50px 0;
+}
+.cost {
+    float: right;
+    font-size: 16px;
+    color: var(--mainAccent);
+    padding-top: 3px;
+}
+.nAPBookTitle {
+    font-size: 24px;
+}
+.newsItem {
+    max-width: 345px;
+    margin: 50px;
+}
+.margin50 {
+    margin-left: 50px;
+}
+.featuredNews {
+    background-color: var(--mainAccent);
+
+}
+.marginT50 {
+    margin-top: 50px;
+}
+.featuredNews img {
+    float: right;
+}
+.featuredColumn {
+    color: var(--mainBG);
+    max-width: 485px;
+    float: right;
+}
+.headlineAttribute {
+    font-size: 24px;
+}
+#twoPatches {
+    background-color: #b0b2a1;
+    min-width: 100%;
+}
+.patchTitle {
+    max-width: 280px;
+    font-size: 50px;
+}
+.patchDesc {
+    max-width: 280px;
+    font-size: 24px;
+}
+.patchWrapper {
+    transform: translateX(80%);
+    margin: 100px;
+}
+.featuredNews1 img {
+    float: left;
+}
+.featuredColumn1 {
+    color: var(--mainBG);
+    max-width: 485px;
+    float: left;
+}
+.featuredNews1 {
+    background-color: var(--mainAccent);
+    border-radius: 0 250px 250px 0;
+    margin-top: 50px;
+}
+.seeMore {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+}
+footer img {
+    max-width: 100px;
+}
+.unitWrapper {
+    width: 500px;
+}
+.card {
+    border: none;
+}
+.wikipedia {
+    background-color: var(--mainBG);
+    padding: 1.5rem 2rem;
+    bottom: 0;
+}
+.card-body a {
+    color: var(--mainAccent);
+}
+.bg-light {
+    background-color: white !important;
+}
+.list-group-item {
+    border: none !important;
+}
